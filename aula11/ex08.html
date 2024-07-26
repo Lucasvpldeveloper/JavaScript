@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulado Brasileiro</title>
+</head>
+<body>
+    <h1>Seja bem vindo ao consulado Brasileiro</h1>
+
+   Qual é o seu páis de origem? <input type="txt1" name="txt1" id="txt1" onclick="pais()">
+
+   <input type="button" value="Enviar">
+
+   <div id="res">
+
+   </div>
+
+   <script>
+    function pais() {
+        var txtv = window.document.getElementById('txt1')
+        var res = window.document.getElementById('res')
+        var vel = (txtv)
+        res.innerHTML = `O ${txtv} é muito bonito!`
+    }
+   </script>
+
+
+</body>
+</html>
