@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: #3B7AC6;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+main {
+    width: 70vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 1.5em; 
+}

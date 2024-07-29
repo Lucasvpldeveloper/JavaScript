@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <p>
+            Inicio: <input type="number" name="Inicio" id="txti">
+        </p>
+        <p>
+            Fim: <input type="number" name="Fim" id="txtf">
+        </p>
+        <p>
+            Passo: <input type="number" name="passo" id="txtp">
+        </p>
+        <p>
+            <input type="button" value="Contar"  onclick="calcular()">
+        </p>
+        <div id="dados">
+            
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </main>
+    <footer>
+        <p>@Lucasvpl</p>
+    </footer>
+    <script src="contagem.js"></script>
+</body>
+</html>
