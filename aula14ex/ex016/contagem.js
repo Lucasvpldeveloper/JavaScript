@@ -8,7 +8,7 @@ function calcular() {
         res.innerHTML = 'Impossível contar!'
       //  window.alert('[EERO] Faltam dados')       
     } else {
-        res.innerHTML = 'Contando: </br>' 
+        res.innerHTML = 'Contando: </br>.' 
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
