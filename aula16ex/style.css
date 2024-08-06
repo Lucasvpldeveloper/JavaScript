@@ -1,2 +1,31 @@
 @charset "UTF-8"; 
 
+body {
+    background-color: #3B7ECD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.533);
+}
+
+select#flista {
+    width: 150px;
+}
+
+footer {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
