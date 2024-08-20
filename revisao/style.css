@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#area {
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
