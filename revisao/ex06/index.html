@@ -10,20 +10,27 @@
     <header>
         <h1>Verificador de Idade</h1>
     </header>
-
     <main>
-            <div id="area">
-                <p>Ano de nascimento: <input type="number" name="txt1" id="txt1"></p>
-                <p>Sexo: <input type="radio" name="txt2" id="masc"> Masculino  <input type="radio" name="txt2" id="fem"> Feminino</p>
-                <p><input type="button" value="Verificar" onclick="verificar()"></p>
-            </div>
-            <div id="imagens">
-                <p>Preencha os dados acima para ver o resultado!</p>
-            </div>
+        <div id="texto">
+            <p>
+                Ano de Nascimento: <input type="number" name="anonasc" id="anonasc">
+            </p>
+            <p>
+                Sexo: <input type="radio" name="sexo" id="masc" checked> 
+                <label for="masc"> Masculino</label> 
+                <input type="radio" name="sexo" id="femi">
+                <label for="femi">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
     </main>
-
     <footer>
-        @Lucasvpl
+        <p>@Lucasvpl</p>
     </footer>
     <script src="verificador.js"></script>
 </body>
