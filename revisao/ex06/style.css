@@ -2,6 +2,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,6 +21,10 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.467);
     background-color: white;
     width: 70vw;
+}
+
+main > #res > img {
+    padding: 20px;
 }
 
 footer {
