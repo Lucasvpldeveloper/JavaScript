@@ -26,6 +26,11 @@ main {
     margin: auto;
 }
 
+input {
+    display: block;
+    margin: 15px;
+}
+
 footer {
     color: white;
     text-align: center;
